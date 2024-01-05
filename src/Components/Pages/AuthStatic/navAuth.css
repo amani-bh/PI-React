@@ -1,0 +1,23 @@
+.baha-nav{
+    font-size: 14px;
+}
+.baha-navbar{
+    z-index:0; 
+}
+.baha-nav{
+    font-size: 15px;
+    color: #260033 ;
+}
+@media screen and (max-width:800px) {
+    .baha-nav{
+        font-size: 14px;
+        color:white ;
+    }
+    .baha-ul{
+        background-color: #15161D;
+    }
+    .baha-navbar{
+        z-index: 300000000000;
+    }
+    
+}

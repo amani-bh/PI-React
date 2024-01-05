@@ -1,0 +1,16 @@
+.positionCenterH1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dimensionsImg{
+    width : 900px;
+    height : 500px;
+  }
+
+  .disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+  

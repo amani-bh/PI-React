@@ -1,0 +1,23 @@
+.aymen-nav{
+    font-size: 14px;
+}
+.aymen-navbar{
+    z-index:0; 
+}
+.aymen-nav{
+    font-size: 15px;
+    color: #260033 ;
+}
+@media screen and (max-width:800px) {
+    .aymen-nav{
+        font-size: 14px;
+        color:white ;
+    }
+    .aymen-ul{
+        background-color: #15161D;
+    }
+    .aymen-navbar{
+        z-index: 300000000000;
+    }
+    
+}

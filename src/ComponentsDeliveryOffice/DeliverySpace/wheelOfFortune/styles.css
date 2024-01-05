@@ -1,0 +1,11 @@
+.resp{
+margin-left: 30%;
+margin-top: 3%;
+}
+@media (max-width: 1000px) {    
+    .resp{
+        margin:0;
+        padding: 0;
+    }
+
+}

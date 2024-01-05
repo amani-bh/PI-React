@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+.aymen-p {
+  background-color: #492f92;
+  -moz-background-color: #492f92;
+  color: white;
+  width: 40%;
+  border-radius: 5%;
+  padding: 32px;
+  /* max-inline-size: 453px; */
+  font-size: 13px;
+  font-family: "Heebo" !important;
+  display: inline-block;
+  line-height: 18.4px;
+}
+
+.ttzz {
+  color: orange;
+  font-size: 52px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.bodyss {
+  color: #2c3e50;
+  font-family: "Montserrat", sans-serif;
+  width: 70rem;
+  font-size: 25px;
+  font-weight: bold;
+  font-weight: 300;
+  height: 100%;
+  position: relative;
+  display: block;
+  margin: 2rem auto;
+}
+
+.h22,
+.h44,
+.h66 {
+  margin: 3px;
+  padding: 0;
+  display: inline-block;
+}
+
+.rootss {
+  padding: 3rem 1.5rem;
+  border-radius: 40px;
+  box-shadow: 0 1rem 2rem #15161d;
+  width: 60%;
+}
+
+figure {
+  display: flex;
+}
+figure img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 1px solid #5b2a93;
+  margin-right: 1.5rem;
+}
+figure figcaption {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+}
+figure figcaption h4 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+figure figcaption h6 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+figure figcaption h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.order-track {
+  margin-top: 2rem;
+  padding: 0 1rem;
+  width: 100%;
+  border-top: 2px dashed #5b2a93;
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+  .rootss {
+    padding: 3rem 1.5rem;
+    border-radius: 40px;
+    box-shadow: 0 1rem 2rem #6e26ff;
+    width: 100%;
+  }
+}
+
+.orderstatus {
+  color: #6e26ff;
+  display: block;
+  padding: 1em 0;
+  position: relative;
+  text-align: center;
+  min-height: 150px;
+}
+
+.orderstatus.done:before {
+  background: #32841f;
+}
+.orderstatus:before {
+  content: "";
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  background: #6e26ff;
+  margin: 0 25px;
+}
+
+.orderstatus:last-child:before {
+  height: 0;
+}
+
+.orderstatus.done {
+  color: #6e26ff;
+}
+
+@media only screen and (max-width: 40em) {
+  .orderstatus {
+    text-align: left;
+  }
+  .orderstatus:before {
+    left: 0;
+  }
+  .orderstatus .orderstatus-text {
+    left: 0;
+    width: 50%;
+  }
+}
+.orderstatus-number {
+  color: white;
+}
+.orderstatus-text {
+  font-size: 14px;
+  position: relative;
+  width: 50%;
+  left: 50%;
+  letter-spacing: 2px;
+  text-align: left;
+  padding-left: 60px;
+}
+
+@media only screen and (min-width: 40em) {
+  .orderstatus:nth-child(2n) .orderstatus-text {
+    left: 10px;
+    text-align: right;
+    padding-right: 20px;
+  }
+}
+
+.orderstatus-container {
+  padding: 2em 0;
+}
+
+.orderstatus.done time {
+  color: #368d22;
+}
+
+@media only screen and (max-width: 40em) {
+  .orderstatus-container {
+    text-align: center;
+  }
+}
+
+.orderstatus-check {
+  font-family: "Helvetica", Arial, sans-serif;
+  border: 2px solid #6e26ff;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 50%;
+  margin-bottom: 0em;
+  background: #fff;
+  z-index: 0;
+  position: absolute;
+  color: #6e26ff;
+  left: 50%;
+}
+
+.orderstatus-check-me {
+  font-family: "Helvetica", Arial, sans-serif;
+  border: 2px solid #6e26ff;
+  width: 50px;
+  background: #6e26ff;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 50%;
+  margin-bottom: 0em;
+  z-index: 0;
+  position: absolute;
+  color: #6e26ff;
+  left: 50%;
+}
+
+.done .orderstatus-check {
+  color: #368d22;
+  border-color: #368d22;
+}
+
+@media only screen and (max-width: 40em) {
+  .orderstatus-check,
+  .orderstatus-check-me {
+    left: 0;
+  }
+}
+
+.orderstatus-active {
+  text-align: center;
+  position: relative;
+  left: 25px;
+  top: 20px;
+  color: #6e26ff;
+}
+
+@media only screen and (max-width: 40em) {
+  .orderstatus-active {
+    display: none;
+  }
+}
